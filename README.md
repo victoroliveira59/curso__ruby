@@ -6,11 +6,11 @@ Este repositório e voltado para minhas atividades conforme minha evolução pro
  - Linux
  - Git e Github
  - Linguagem de programação
- - Frameworks
+ - Frameworks  
  - Banco de Dados
 
 
-# Objetivo 
+# Objetivo   
 
 O objetivo é complementar este repositórios com diversar atividades práticas e também conteúdo como links para poder consultar sempre que for necessário. Estou fazendo um mapa de estudo para recorrer sem que tiver uma duvida.
 
