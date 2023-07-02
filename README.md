@@ -12,7 +12,7 @@ Este repositório e voltado para minhas atividades conforme minha evolução pro
 
 # Objetivo   
 
-O objetivo é complementar este repositórios com diversar atividades práticas e também conteúdo como links para poder consultar sempre que for necessário. Estou fazendo um mapa de estudo para recorrer sem que tiver uma duvida.
+O objetivo é complementar este repositórios com diversar atividades práticas e também conteúdo como links para poder consultar sempre que for necessário. Estou fazendo um mapa de estudo para recorrer sempre que tiver uma duvida.  
 
 # Materiais 
 
