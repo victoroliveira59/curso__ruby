@@ -1,6 +1,6 @@
  
 
-fruits = ['Maça', 'Uva', 'Morango', 'Toamte'] # <- Array
+fruits = %w[Maça Uva Morango Toamte] # <- Array
 count = 0
 
 for x in fruits
