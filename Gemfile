@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+# gem 'pry-byebug'
+gem 'debug', '~> 1.8'
+# gem 'rspec'
+# gem 'rspec-rails'
+gem 'debase', '~> 0.2.4'
+# gem 'cep'
+gem 'nokogiri'
+gem 'pristine', '~> 0.0.3'
+gem 'io-console', '~> 0.6.0'
