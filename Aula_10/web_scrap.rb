@@ -7,10 +7,10 @@ https.use_ssl = true #habilita o ssl
 
 response = https.get("/") # executa o objeto nessa linha por meio do get e coloca a resposta em response
 
-# begin #inicia a chama da do meu objeto
-doc = Nokogiri::HTML(response.body) #NOkogiri pega o que encontrou no site e coloca em doc
+#inicia a chama da do meu objeto
+doc = Nokogiri::HTML(response.body) #NOkogiri pega o que encontrou no site e armazena em doc
 
-doc.search('h2, p').each do |a| #Faz um loop e percorre todo o site trazendo as informações
+doc.search('h2, p').each do |a| #Faz um loop e percorre todo o site trazendo as informações pertinentes a linha
 	puts a.content
 	puts a['href']
 	puts ''
