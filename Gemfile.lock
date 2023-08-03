@@ -92,12 +92,15 @@ GEM
     public_suffix (5.0.3)
     racc (1.7.1)
     rack (3.0.8)
+    rake (13.0.6)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     reline (0.3.6)
       io-console (~> 0.5)
     robocop (0.1.1)
       rack
+    ruby-debug-ide (0.7.3)
+      rake (>= 0.8.1)
     ruby2_keywords (0.0.5)
     signet (0.17.0)
       addressable (~> 2.8)
@@ -116,6 +119,7 @@ DEPENDENCIES
   nokogiri
   pristine (~> 0.0.3)
   robocop (~> 0.1.1)
+  ruby-debug-ide (~> 0.7.3)
 
 BUNDLED WITH
    2.4.15
