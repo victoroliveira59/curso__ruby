@@ -3,12 +3,6 @@ GEM
   specs:
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
-    debase (0.2.4.1)
-      debase-ruby_core_source (>= 0.10.2)
-    debase-ruby_core_source (3.2.1)
-    debug (1.8.0)
-      irb (>= 1.5.0)
-      reline (>= 0.3.1)
     faraday (1.10.3)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
@@ -32,7 +26,6 @@ GEM
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
-    ffi (1.15.5)
     gapic-common (0.19.1)
       faraday (>= 1.9, < 3.a)
       faraday-retry (>= 1.0, < 3.a)
@@ -77,30 +70,12 @@ GEM
     grpc (1.56.2-x86_64-linux)
       google-protobuf (~> 3.23)
       googleapis-common-protos-types (~> 1.0)
-    io-console (0.6.0)
-    irb (1.7.3)
-      reline (>= 0.3.6)
     jwt (2.7.1)
     memoist (0.16.2)
     multi_json (1.15.0)
     multipart-post (2.3.0)
-    nokogiri (1.15.3-x86_64-linux)
-      racc (~> 1.4)
     os (1.1.4)
-    pristine (0.0.3)
-      rb-inotify (~> 0.9.7)
     public_suffix (5.0.3)
-    racc (1.7.1)
-    rack (3.0.8)
-    rake (13.0.6)
-    rb-inotify (0.9.10)
-      ffi (>= 0.5.0, < 2)
-    reline (0.3.6)
-      io-console (~> 0.5)
-    robocop (0.1.1)
-      rack
-    ruby-debug-ide (0.7.3)
-      rake (>= 0.8.1)
     ruby2_keywords (0.0.5)
     signet (0.17.0)
       addressable (~> 2.8)
@@ -112,14 +87,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  debase (~> 0.2.4)
-  debug (~> 1.8)
   google-cloud-translate (~> 3.4, >= 3.4.1)
-  io-console (~> 0.6.0)
-  nokogiri
-  pristine (~> 0.0.3)
-  robocop (~> 0.1.1)
-  ruby-debug-ide (~> 0.7.3)
 
 BUNDLED WITH
    2.4.15
